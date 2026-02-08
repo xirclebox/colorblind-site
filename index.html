@@ -1,0 +1,1308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Accessibility information about designing for colorblindness and low vision."
+    />
+    <title>
+      Understanding Colorblindness & Low Vision | Accessibility Guide
+    </title>
+    <link rel="stylesheet" href="cvd.css" />
+  </head>
+  <body>
+    <a href="#main" class="skip-to-main">Skip to main content</a>
+    <header class="hero">
+      <div class="hero__content">
+        <h1 class="hero__title">Understanding Colorblindness & Low Vision</h1>
+      </div>
+    </header>
+
+    <div class="container">
+      <nav class="nav-sidebar" aria-label="Table of contents">
+        <h2 class="nav-sidebar__title">Contents</h2>
+        <ul class="nav-sidebar__list">
+          <li class="nav-sidebar__item">
+            <a href="#what-is-colorblindness" class="nav-sidebar__link">
+              What is Colorblindness?
+            </a>
+          </li>
+          <li class="nav-sidebar__item">
+            <a href="#global-distribution" class="nav-sidebar__link">
+              Global Distribution
+            </a>
+          </li>
+          <li class="nav-sidebar__item">
+            <a href="#test-your-designs" class="nav-sidebar__link">
+              Test Your Designs
+            </a>
+          </li>
+          <li class="nav-sidebar__item">
+            <a href="#types-cvd" class="nav-sidebar__link"> Types of CVD </a>
+          </li>
+          <li class="nav-sidebar__item">
+            <a
+              href="#design-practices-colorblindness"
+              class="nav-sidebar__link"
+            >
+              Design for Colorblindness
+            </a>
+          </li>
+          <li class="nav-sidebar__item">
+            <a href="#web-accessibility-resources" class="nav-sidebar__link">
+              Web Accessibility
+            </a>
+          </li>
+          <li class="nav-sidebar__item">
+            <a href="#understanding-low-vision" class="nav-sidebar__link">
+              Understanding Low Vision
+            </a>
+          </li>
+          <li class="nav-sidebar__item">
+            <a href="#types-low-vision" class="nav-sidebar__link">
+              Types of Low Vision
+            </a>
+          </li>
+          <li class="nav-sidebar__item">
+            <a href="#design-practices-low-vision" class="nav-sidebar__link">
+              Design for Low Vision
+            </a>
+          </li>
+          <li class="nav-sidebar__item">
+            <a href="#low-vision-resources" class="nav-sidebar__link">
+              Low Vision Resources
+            </a>
+          </li>
+          <li class="nav-sidebar__item">
+            <a
+              href="#statistical-references"
+              class="nav-sidebar__link statistical-references"
+            >
+              Statistical References
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <main id="main">
+        <div class="content-wrapper">
+          <section class="section">
+            <h2 class="section__heading" id="what-is-colorblindness">
+              What is Colorblindness?
+            </h2>
+            <p class="section__subtitle">
+              Understanding color vision deficiency and its global impact
+            </p>
+            <p class="section__intro-text">
+              Colorblindness, also known as color vision deficiency (CVD), is
+              hereditary. CVD affects how the cone cells in the retina perceive
+              the visible spectrum. While the term "colorblindness" suggests
+              that the person can't see color at all, most people with CVD can
+              see colors, but have difficulty distinguishing between specific
+              hues, particularly reds and greens or blues and yellows.
+            </p>
+
+            <div class="card__grid two">
+              <div class="card">
+                <div class="card__number">8%</div>
+                <div class="card__copy">
+                  of men have some form of colorblindness
+                  <sup><a href="#ref1" class="ref-link">[1,3,4]</a></sup>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__number">0.5%</div>
+                <div class="card__copy">
+                  of women have some form of colorblindness
+                  <sup><a href="#ref1" class="ref-link">[1,3,4]</a></sup>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__number">300M</div>
+                <div class="card__copy">
+                  people worldwide are affected
+                  <sup><a href="#ref1" class="ref-link">[1,5,8]</a></sup>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__number">99%</div>
+                <div class="card__copy">
+                  of cases are red-green colorblindness
+                  <sup><a href="#ref1" class="ref-link">[1]</a></sup>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="section">
+            <h2 class="section__heading" id="global-distribution">
+              Global Distribution
+            </h2>
+            <p class="section__subtitle">
+              Colorblindness prevalence varies by region and ethnicity
+            </p>
+
+            <div class="card__grid two">
+              <div class="card">
+                <div class="card__number">1 in 12</div>
+                <div class="card__copy">
+                  men worldwide are colorblind
+                  <sup><a href="#ref1" class="ref-link">[1,8]</a></sup>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__number">1 in 200</div>
+                <div class="card__copy">
+                  women worldwide are colorblind
+                  <sup><a href="#ref1" class="ref-link">[1,8]</a></sup>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__number">12</div>
+                <div class="card__copy">
+                  children with CVD born per minute
+                  <sup><a href="#ref1" class="ref-link">[1]</a></sup>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__number">4.5%</div>
+                <div class="card__copy">
+                  of the world's population
+                  <sup><a href="#ref1" class="ref-link">[1]</a></sup>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-container">
+              <h3 class="card-container__title">Top Countries by Population</h3>
+              <div class="card__grid two">
+                <div class="card">
+                  <h4 class="card__heading">
+                    India
+                    <sup><a href="#ref1" class="ref-link">[1,2]</a></sup>
+                  </h4>
+                  <p class="card__copy">
+                    70 million colorblind people (5.2% of population).
+                  </p>
+                </div>
+                <div class="card">
+                  <h4 class="card__heading">
+                    China
+                    <sup><a href="#ref1" class="ref-link">[1,2,6]</a></sup>
+                  </h4>
+                  <p class="card__copy">
+                    53 million colorblind people (3.7% of population).
+                  </p>
+                </div>
+                <div class="card">
+                  <h4 class="card__heading">
+                    United States
+                    <sup><a href="#ref1" class="ref-link">[1,2]</a></sup>
+                  </h4>
+                  <p class="card__copy">
+                    12 million colorblind people (3.7% of population). 7% of
+                    males, 0.4% of females.
+                  </p>
+                </div>
+                <div class="card">
+                  <h4 class="card__heading">
+                    Indonesia
+                    <sup><a href="#ref1" class="ref-link">[1]</a></sup>
+                  </h4>
+                  <p class="card__copy">
+                    11 million colorblind people (4% of population).
+                  </p>
+                </div>
+                <div class="card">
+                  <h4 class="card__heading">
+                    Brazil
+                    <sup><a href="#ref1" class="ref-link">[1]</a></sup>
+                  </h4>
+                  <p class="card__copy">
+                    8 million colorblind people (3.77% of population).
+                  </p>
+                </div>
+                <div class="card">
+                  <h4 class="card__heading">
+                    Russia
+                    <sup><a href="#ref1" class="ref-link">[1]</a></sup>
+                  </h4>
+                  <p class="card__copy">
+                    7 million colorblind people (4.8% of population).
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-container">
+              <h3 class="card-container__title">Prevalence by Ethnicity</h3>
+              <div class="card__grid two">
+                <div class="card">
+                  <h4 class="card__heading">
+                    Northern European Descent
+                    <sup><a href="#ref3" class="ref-link">[3,4]</a></sup>
+                  </h4>
+                  <p class="card__copy">
+                    Highest rates globally: 7-8% of men, 0.4-0.5% of women
+                    affected by red-green colorblindness.
+                  </p>
+                </div>
+                <div class="card">
+                  <h4 class="card__heading">
+                    East Asian Populations
+                    <sup><a href="#ref4" class="ref-link">[4,6]</a></sup>
+                  </h4>
+                  <p class="card__copy">
+                    Moderate rates: 4-6.5% of men in Chinese and Japanese
+                    populations.
+                  </p>
+                </div>
+                <div class="card">
+                  <h4 class="card__heading">
+                    African Descent
+                    <sup><a href="#ref4" class="ref-link">[4]</a></sup>
+                  </h4>
+                  <p class="card__copy">
+                    Rising prevalence noted in recent surveys, particularly in
+                    areas with incoming migration.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="extension" id="test-your-designs">
+            <div class="extension__content">
+              <div class="extension__text">
+                <img
+                  src="colorblind-icon.svg"
+                  class="extension__img"
+                  alt=""
+                  aria-hidden="true"
+                />
+                <h2 class="extension__text-title">Test Your Designs</h2>
+                <p class="extension__text-description">
+                  The Color Blind & Low Vision Simulator is an accessibility
+                  tool that allows users to test and observe how people with
+                  colorblindness or low vision may perceive web-based content.
+                </p>
+
+                <a
+                  href="https://chromewebstore.google.com/detail/color-blind-low-vision-si/lgflijofdempkdlaknbfmacfidjjhjbb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="extension__cta"
+                >
+                  Download the extension
+                </a>
+              </div>
+              <div class="extension__list">
+                <h3 class="extension__list-title">Simulation Options</h3>
+                <ul class="extension__list-items">
+                  <li class="extension__list-type">Protanopia (Red-blind)</li>
+                  <li class="extension__list-type">
+                    Deuteranopia (Green-blind)
+                  </li>
+                  <li class="extension__list-type">Tritanopia (Blue-blind)</li>
+                  <li class="extension__list-type">Protanomaly (Red-weak)</li>
+                  <li class="extension__list-type">
+                    Deuteranomaly (Green-weak)
+                  </li>
+                  <li class="extension__list-type">Tritanomaly (Blue-weak)</li>
+                  <li class="extension__list-type">Achromatopsia (No color)</li>
+                  <li class="extension__list-type">Tunnel Vision & More</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section class="section">
+            <h2 class="section__heading" id="types-cvd">
+              Types of Color Vision Deficiency
+            </h2>
+            <p class="section__subtitle">
+              Understanding the different forms and their effects
+            </p>
+
+            <div class="card__grid three">
+              <div class="card">
+                <h3 class="card__heading">Protanopia</h3>
+                <p class="card__copy">
+                  Complete absence of red cone cells. Red appears as dark grey
+                  or black, and certain shades of orange, yellow, and green all
+                  appear as yellow.
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="card__heading">Deuteranopia</h3>
+                <p class="card__copy">
+                  Complete absence of green cone cells. The most common form,
+                  causing difficulty distinguishing between red, green, brown,
+                  and orange.
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="card__heading">Tritanopia</h3>
+                <p class="card__copy">
+                  Rare condition with absence of blue cone cells. Blue appears
+                  green, and yellow appears violet or light grey.
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="card__heading">Protanomaly</h3>
+                <p class="card__copy">
+                  Reduced sensitivity to red light. Red, orange, and yellow
+                  appear greener, and colors are not as bright.
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="card__heading">Deuteranomaly</h3>
+                <p class="card__copy">
+                  The most common type overall. Reduced sensitivity to green
+                  light, making green and yellow appear redder.
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="card__heading">Tritanomaly</h3>
+                <p class="card__copy">
+                  Extremely rare. Reduced sensitivity to blue light, causing
+                  difficulty distinguishing blue from green and yellow from
+                  violet.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section class="section">
+            <h2 class="section__heading" id="design-practices-colorblindness">
+              Design for Colorblindness
+            </h2>
+            <p class="section__subtitle">
+              Best practices for designing inclusive digital experiences for
+              everyone
+            </p>
+            <div class="card__grid two">
+              <div class="card">
+                <h3 class="card__heading">Use Patterns & Textures</h3>
+                <p class="card__copy">
+                  Add patterns, textures, or hatching to distinguish elements
+                  beyond color alone in charts and data visualizations.
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="card__heading">Sufficient Contrast</h3>
+                <p class="card__copy">
+                  Maintain a minimum 4.5:1 contrast ratio for normal text and
+                  3:1 for large text and UI components.
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="card__heading">Icons & Labels</h3>
+                <p class="card__copy">
+                  Combine color with icons, text labels, or other visual
+                  indicators to convey information.
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="card__heading">Test Your Designs</h3>
+                <p class="card__copy">
+                  Use colorblindness simulators and automated tools to verify
+                  your design works for all users.
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="card__heading">Avoid Problematic Pairs</h3>
+                <p class="card__copy">
+                  Be cautious with red-green, blue-yellow, green-brown, and
+                  blue-purple combinations without additional differentiation.
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="card__heading">Underline Links</h3>
+                <p class="card__copy">
+                  Don't rely solely on color to indicate links. Use underlines
+                  or other visual cues to make them identifiable.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section class="section">
+            <h2 class="section__heading" id="web-accessibility-resources">
+              Web Accessibility
+            </h2>
+            <p class="section__subtitle">
+              The Web Content Accessibility Guidelines (WCAG) and the World Wide
+              Web Consortium (W3C) resources for color accessibility
+            </p>
+            <div class="card-container">
+              <p class="card-container__description">
+                The WCAG and related W3C resources provide guidance on creating
+                accessible web experiences for people with color vision
+                deficiency
+              </p>
+
+              <div class="card-container__grid">
+                <a
+                  href="https://www.w3.org/WAI/WCAG22/Understanding/use-of-color"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">1</div>
+                  <div>
+                    <h3 class="resources__title">WCAG 2.2 - Use of Color</h3>
+                    <p class="card-container__link-description">
+                      Success Criterion 1.4.1: Color is not used as the only
+                      visual means of conveying information
+                    </p>
+                  </div>
+                </a>
+
+                <a
+                  href="https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">2</div>
+                  <div>
+                    <h3 class="resources__title">
+                      WCAG 2.2 - Contrast (Minimum)
+                    </h3>
+                    <p class="card-container__link-description">
+                      Success Criterion 1.4.3: Minimum contrast ratio of 4.5:1
+                      for normal text
+                    </p>
+                  </div>
+                </a>
+
+                <a
+                  href="https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">3</div>
+                  <div>
+                    <h3 class="resources__title">
+                      WCAG 2.2 - Contrast (Enhanced)
+                    </h3>
+                    <p class="card-container__link-description">
+                      Success Criterion 1.4.6: Enhanced contrast ratio of 7:1
+                      for normal text (Level AAA)
+                    </p>
+                  </div>
+                </a>
+
+                <a
+                  href="https://www.w3.org/WAI/perspective-videos/contrast/"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">4</div>
+                  <div>
+                    <h3 class="resources__title">
+                      W3C Color Contrast Guidance
+                    </h3>
+                    <p class="card-container__link-description">
+                      Web accessibility guidelines for color contrast to support
+                      low vision users
+                    </p>
+                  </div>
+                </a>
+
+                <a
+                  href="https://www.w3.org/WAI/WCAG22/Techniques/general/G182"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">5</div>
+                  <div>
+                    <h3 class="resources__title">
+                      Technique G182: Additional Visual Cues
+                    </h3>
+                    <p class="card-container__link-description">
+                      Ensuring additional visual cues are available when text
+                      color is used to convey information
+                    </p>
+                  </div>
+                </a>
+
+                <a
+                  href="https://www.w3.org/WAI/WCAG22/Techniques/general/G183"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">6</div>
+                  <div>
+                    <h3 class="resources__title">
+                      Technique G183: Using 3:1 Contrast for Surrounding Context
+                    </h3>
+                    <p class="card-container__link-description">
+                      Using a contrast ratio of 3:1 with surrounding text and
+                      providing additional cues
+                    </p>
+                  </div>
+                </a>
+
+                <a
+                  href="https://www.w3.org/TR/low-vision-needs/#color"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">7</div>
+                  <div>
+                    <h3 class="resources__title">
+                      Accessibility Requirements for Low Vision
+                    </h3>
+                    <p class="card-container__link-description">
+                      W3C documentation on color-related needs for people with
+                      low vision
+                    </p>
+                  </div>
+                </a>
+
+                <a
+                  href="https://www.w3.org/TR/css-color-4/"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">8</div>
+                  <div>
+                    <h3 class="resources__title">CSS Color Module Level 4</h3>
+                    <p class="card-container__link-description">
+                      Technical specification for color representation in CSS
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </section>
+
+          <section class="section">
+            <h2 class="section__heading" id="understanding-low-vision">
+              Understanding Low Vision
+            </h2>
+            <p class="section__subtitle">
+              Visual impairment that affects millions globally
+            </p>
+            <p class="section__intro-text">
+              Low vision is a visual impairment that can't be corrected with
+              standard glasses, contact lenses, medication, or surgery, and
+              significantly interferes with daily activities. Unlike total
+              blindness, individuals with low vision retain some usable vision.
+              According to the World Health Organization, there are at least 2.2
+              billion people worldwide who have some form of vision
+              impairment<sup><a href="#ref9" class="ref-link">[9,10]</a></sup
+              >, with approximately 295 million experiencing moderate to severe
+              vision impairment and 43 million living with blindness<sup
+                ><a href="#ref10" class="ref-link">[10,11]</a></sup
+              >. The prevalence of vision impairment increases significantly
+              with age, and it is estimated that by 2050, over 1.8 billion
+              people will be affected by some form of vision loss<sup
+                ><a href="#ref12" class="ref-link">[12]</a></sup
+              >.
+            </p>
+
+            <div class="card__grid two">
+              <div class="card">
+                <div class="card__number">2.2B</div>
+                <div class="card__copy">
+                  people worldwide have some form of vision impairment
+                  <sup><a href="#ref9" class="ref-link">[9,10]</a></sup>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__number">295M</div>
+                <div class="card__copy">
+                  people have moderate to severe vision impairment
+                  <sup><a href="#ref10" class="ref-link">[10,11]</a></sup>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__number">43M</div>
+                <div class="card__copy">
+                  people are blind globally
+                  <sup><a href="#ref10" class="ref-link">[10,11]</a></sup>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__number">80%</div>
+                <div class="card__copy">
+                  of vision impairment is preventable or treatable
+                  <sup><a href="#ref9" class="ref-link">[9,13]</a></sup>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__number">1.8B</div>
+                <div class="card__copy">
+                  projected to have vision loss by 2050
+                  <sup><a href="#ref12" class="ref-link">[12]</a></sup>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__number">55%</div>
+                <div class="card__copy">
+                  of people with vision impairment are women
+                  <sup><a href="#ref12" class="ref-link">[12]</a></sup>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__number">90%</div>
+                <div class="card__copy">
+                  of people with vision impairment live in low and middle-income
+                  countries
+                  <sup><a href="#ref12" class="ref-link">[12]</a></sup>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__number">$411B</div>
+                <div class="card__copy">
+                  annual global productivity loss due to vision impairment
+                  <sup><a href="#ref9" class="ref-link">[9]</a></sup>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="section">
+            <h2 class="section__heading" id="types-low-vision">
+              Types of Low Vision
+            </h2>
+            <p class="section__subtitle">
+              Common visual impairment categories and conditions
+            </p>
+            <div class="card__grid three">
+              <div class="card">
+                <h3 class="card__heading">Central Vision Loss</h3>
+                <p class="card__copy">
+                  Inability to see things in the center of vision, often caused
+                  by age-related macular degeneration (AMD) or Stargardt
+                  disease. Affects reading and recognizing faces.
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="card__heading">Peripheral Vision Loss</h3>
+                <p class="card__copy">
+                  Difficulty seeing objects in the corners of eyes, commonly
+                  caused by glaucoma or retinitis pigmentosa. Results in tunnel
+                  vision and mobility challenges.
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="card__heading">Night Blindness</h3>
+                <p class="card__copy">
+                  Reduced ability to see in low light conditions, often
+                  associated with retinitis pigmentosa or vitamin A deficiency.
+                  Makes navigation in dim environments difficult.
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="card__heading">Cataracts</h3>
+                <p class="card__copy">
+                  Clouding of the eye's natural lens causing blurred vision and
+                  glare sensitivity. The leading cause of preventable blindness
+                  worldwide, affecting over 94 million people<sup
+                    ><a href="#ref14" class="ref-link">[14]</a></sup
+                  >.
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="card__heading">Diabetic Retinopathy</h3>
+                <p class="card__copy">
+                  Damage to retinal blood vessels from diabetes. Affects 3.9
+                  million people with vision impairment<sup
+                    ><a href="#ref15" class="ref-link">[15]</a></sup
+                  >, causing blurred vision, floaters, and potential blindness.
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="card__heading">Glaucoma</h3>
+                <p class="card__copy">
+                  Optic nerve damage from eye pressure. Affects over 80 million
+                  people worldwide<sup
+                    ><a href="#ref10" class="ref-link">[10]</a></sup
+                  >, causing peripheral vision loss and reduced contrast
+                  sensitivity.
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="card__heading">Age-Related Macular Degeneration</h3>
+                <p class="card__copy">
+                  Progressive deterioration of the macula affecting central
+                  vision. Leading cause of vision loss in people over 65,
+                  impacting 8 million people globally<sup
+                    ><a href="#ref16" class="ref-link">[16]</a></sup
+                  >.
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="card__heading">Retinitis Pigmentosa</h3>
+                <p class="card__copy">
+                  Inherited condition causing gradual vision loss. Affects rod
+                  cells first, leading to night blindness and progressive tunnel
+                  vision over time.
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="card__heading">Uncorrected Refractive Errors</h3>
+                <p class="card__copy">
+                  Myopia, hyperopia, and astigmatism that cannot be corrected.
+                  Affects 88.4 million people<sup
+                    ><a href="#ref10" class="ref-link">[10]</a></sup
+                  >, causing blurred vision at various distances.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section class="section">
+            <h2 class="section__heading" id="design-practices-low-vision">
+              Design for Low Vision
+            </h2>
+            <p class="section__subtitle">
+              Best practices for designing experiences for users with low vision
+            </p>
+            <div class="card__grid three">
+              <div class="card">
+                <h3 class="card__heading">Contrast</h3>
+                <p class="card__copy">
+                  Maintain minimum 4.5:1 contrast ratio for normal text and 3:1
+                  for large text. Use high contrast color combinations and avoid
+                  light text on light backgrounds.
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="card__heading">Scalable Text</h3>
+                <p class="card__copy">
+                  Use relative units (em, rem) instead of fixed pixels. Ensure
+                  text can be resized up to 200% without loss of content or
+                  functionality.
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="card__heading">Clear Typography</h3>
+                <p class="card__copy">
+                  Use sans-serif fonts with adequate spacing. Minimum 16px base
+                  font size, 1.5 line height, and avoid italic or condensed
+                  fonts for body text.
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="card__heading">Zoom & Magnification</h3>
+                <p class="card__copy">
+                  Support browser zoom without horizontal scrolling. Ensure
+                  layouts reflow properly and information remains visible when
+                  magnified.
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="card__heading">Don't Relying on Color Alone</h3>
+                <p class="card__copy">
+                  Combine color with text labels, icons, patterns, or textures.
+                  This helps users with both colorblindness and low vision
+                  understand information.
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="card__heading">Keyboard Navigation</h3>
+                <p class="card__copy">
+                  Ensure all interactive elements are keyboard accessible with
+                  visible focus indicators.
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="card__heading">Touch Targets</h3>
+                <p class="card__copy">
+                  An ideal target is no less than 44x44 pixels, however, the
+                  minimum is 24x24 pixels for touch targets with adequate
+                  spacing. Larger targets are easier to see and interact with
+                  for low vision users.
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="card__heading">Motion & Animation</h3>
+                <p class="card__copy">
+                  Avoid excessive animations, parallax effects, and flashing
+                  content. For animation / movement lasting longer than three
+                  seconds, provide controls to pause or reduce motion.
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="card__heading">Screen Reader Compatibility</h3>
+                <p class="card__copy">
+                  Use semantic HTML and ARIA labels properly. Many low vision
+                  users combine screen magnification with screen readers.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section class="section">
+            <h2 class="section__heading" id="low-vision-resources">
+              Low Vision Resources
+            </h2>
+            <p class="section__subtitle">
+              Information for understanding low vision
+            </p>
+            <div class="card-container">
+              <div class="card-container__grid">
+                <a
+                  href="https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">1</div>
+                  <div>
+                    <h3 class="resources__title">
+                      WHO Vision Impairment Fact Sheet
+                    </h3>
+                    <p class="card-container__link-description">
+                      Official statistics on global visual impairment and
+                      blindness from the World Health Organization
+                    </p>
+                  </div>
+                </a>
+
+                <a
+                  href="https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/low-vision"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">2</div>
+                  <div>
+                    <h3 class="resources__title">
+                      National Eye Institute - Low Vision
+                    </h3>
+                    <p class="card-container__link-description">
+                      Comprehensive information on low vision types, causes, and
+                      treatments
+                    </p>
+                  </div>
+                </a>
+
+                <a
+                  href="https://www.w3.org/WAI/perspective-videos/contrast/"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">3</div>
+                  <div>
+                    <h3 class="resources__title">
+                      W3C Color Contrast Guidance
+                    </h3>
+                    <p class="card-container__link-description">
+                      Web accessibility guidelines for color contrast to support
+                      low vision users
+                    </p>
+                  </div>
+                </a>
+
+                <a
+                  href="https://www.w3.org/WAI/GL/low-vision-a11y-tf/"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">4</div>
+                  <div>
+                    <h3 class="resources__title">
+                      W3C Low Vision Accessibility Task Force
+                    </h3>
+                    <p class="card-container__link-description">
+                      Technical specifications and best practices for low vision
+                      accessibility
+                    </p>
+                  </div>
+                </a>
+
+                <a
+                  href="https://webaim.org/articles/visual/"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">5</div>
+                  <div>
+                    <h3 class="resources__title">
+                      WebAIM - Visual Disabilities
+                    </h3>
+                    <p class="card-container__link-description">
+                      Detailed guide on designing for various types of visual
+                      disabilities
+                    </p>
+                  </div>
+                </a>
+
+                <a
+                  href="https://www.visionaware.org/"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">6</div>
+                  <div>
+                    <h3 class="resources__title">VisionAware</h3>
+                    <p class="card-container__link-description">
+                      Practical resources for adults experiencing vision loss
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </section>
+
+          <section class="section">
+            <h2 class="section__heading" id="statistical-references">
+              Statistical References
+            </h2>
+            <p class="section__subtitle">
+              Sources for colorblindness and low vision data
+            </p>
+            <div class="card-container">
+              <div class="card-container__grid">
+                <a
+                  id="ref1"
+                  href="https://www.colorblindguide.com/post/colorblind-people-population-live-counter"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">1</div>
+                  <div>
+                    <h3 class="resources__title">
+                      Colorblind People Population Statistics
+                    </h3>
+                    <p class="card-container__link-description">
+                      Global prevalence data including 1 in 12 men, 1 in 200
+                      women, and country-specific populations
+                    </p>
+                  </div>
+                </a>
+
+                <a
+                  id="ref2"
+                  href="https://medium.com/statistic-hub/statistics-about-color-blindness-559bdc21b021"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">2</div>
+                  <div>
+                    <h3 class="resources__title">
+                      Color Blindness Statistics by Country
+                    </h3>
+                    <p class="card-container__link-description">
+                      Comprehensive data on affected populations in India,
+                      China, United States, and other nations
+                    </p>
+                  </div>
+                </a>
+
+                <a
+                  id="ref3"
+                  href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12385717/"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">3</div>
+                  <div>
+                    <h3 class="resources__title">
+                      Global Perspective of Color Vision Deficiency - PMC
+                    </h3>
+                    <p class="card-container__link-description">
+                      Peer-reviewed research on prevalence by ethnicity
+                      including Northern European populations (8% males, 0.5%
+                      females)
+                    </p>
+                  </div>
+                </a>
+
+                <a
+                  id="ref4"
+                  href="https://pubmed.ncbi.nlm.nih.gov/22472762/"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">4</div>
+                  <div>
+                    <h3 class="resources__title">
+                      Worldwide Prevalence of Red-Green Color Deficiency -
+                      PubMed
+                    </h3>
+                    <p class="card-container__link-description">
+                      Research on ethnic variations: 8% European Caucasian men,
+                      4-6.5% East Asian men, and African populations
+                    </p>
+                  </div>
+                </a>
+
+                <a
+                  id="ref5"
+                  href="https://www.visioncenter.org/resources/color-blind-statistics/"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">5</div>
+                  <div>
+                    <h3 class="resources__title">
+                      Color Blind Statistics and Facts - Vision Center
+                    </h3>
+                    <p class="card-container__link-description">
+                      Data on 300 million affected individuals worldwide and
+                      regional distribution patterns
+                    </p>
+                  </div>
+                </a>
+
+                <a
+                  id="ref6"
+                  href="https://media.market.us/color-blindness-statistics/"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">6</div>
+                  <div>
+                    <h3 class="resources__title">
+                      Color Blindness Statistics (2025)
+                    </h3>
+                    <p class="card-container__link-description">
+                      China 6.9% males/0.5% females (3.7% total), Japan 5%
+                      males/0.2% females, 107 million in China
+                    </p>
+                  </div>
+                </a>
+
+                <a
+                  id="ref7"
+                  href="https://iovs.arvojournals.org/article.aspx?articleid=2790714"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">7</div>
+                  <div>
+                    <h3 class="resources__title">
+                      Global Prevalence Meta-Analysis - ARVO Journals
+                    </h3>
+                    <p class="card-container__link-description">
+                      Systematic review showing CVD prevalence varies from 1.40%
+                      to 13.93% across 16 countries
+                    </p>
+                  </div>
+                </a>
+
+                <a
+                  id="ref8"
+                  href="https://colorblindsmart.com/percent-people-population-colorblind/"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">8</div>
+                  <div>
+                    <h3 class="resources__title">
+                      What Percent of the Population is Color Blind?
+                    </h3>
+                    <p class="card-container__link-description">
+                      Overview of 8% male/0.5% female prevalence and 300+
+                      million global population estimate
+                    </p>
+                  </div>
+                </a>
+
+                <a
+                  id="ref9"
+                  href="https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">9</div>
+                  <div>
+                    <h3 class="resources__title">
+                      WHO Blindness and Visual Impairment Fact Sheet
+                    </h3>
+                    <p class="card-container__link-description">
+                      2.2 billion people with vision impairment, 80%
+                      preventable/treatable, $411B annual productivity loss
+                    </p>
+                  </div>
+                </a>
+
+                <a
+                  id="ref10"
+                  href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11269692/"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">10</div>
+                  <div>
+                    <h3 class="resources__title">
+                      Global Burden of Disease Study - Vision Loss
+                    </h3>
+                    <p class="card-container__link-description">
+                      Comprehensive data on 295M with moderate to severe vision
+                      impairment, 43M blind, leading causes including cataracts
+                      (94M), refractive error (88.4M), glaucoma (7.7M)
+                    </p>
+                  </div>
+                </a>
+
+                <a
+                  id="ref11"
+                  href="https://www.who.int/publications-detail-redirect/world-report-on-vision"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">11</div>
+                  <div>
+                    <h3 class="resources__title">WHO World Report on Vision</h3>
+                    <p class="card-container__link-description">
+                      At least 2.2 billion people have vision impairment, with
+                      at least 1 billion cases preventable or yet to be
+                      addressed
+                    </p>
+                  </div>
+                </a>
+
+                <a
+                  id="ref12"
+                  href="https://www.statista.com/chart/31502/expected-number-of-people-with-vision-loss-globally/"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">12</div>
+                  <div>
+                    <h3 class="resources__title">
+                      Global Vision Loss Projections to 2050
+                    </h3>
+                    <p class="card-container__link-description">
+                      1.8 billion projected by 2050, 55% women, 90% in low and
+                      middle-income countries, aging population and lifestyle
+                      factors
+                    </p>
+                  </div>
+                </a>
+
+                <a
+                  id="ref13"
+                  href="https://www.ncbi.nlm.nih.gov/books/NBK448182/"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">13</div>
+                  <div>
+                    <h3 class="resources__title">
+                      Blindness - StatPearls - NCBI
+                    </h3>
+                    <p class="card-container__link-description">
+                      80% of visual impairments worldwide can be prevented,
+                      treated, or cured with proper eye care
+                    </p>
+                  </div>
+                </a>
+
+                <a
+                  id="ref14"
+                  href="https://pubmed.ncbi.nlm.nih.gov/38461217/"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">14</div>
+                  <div>
+                    <h3 class="resources__title">
+                      Global Estimates on Cataract - PubMed
+                    </h3>
+                    <p class="card-container__link-description">
+                      94 million people with vision impairment due to cataract
+                      globally from 2000-2020
+                    </p>
+                  </div>
+                </a>
+
+                <a
+                  id="ref15"
+                  href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11269692/"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">15</div>
+                  <div>
+                    <h3 class="resources__title">
+                      Diabetic Retinopathy Vision Impairment - PMC
+                    </h3>
+                    <p class="card-container__link-description">
+                      3.9 million people with vision impairment, 1.07 million
+                      blind due to diabetic retinopathy in 2020
+                    </p>
+                  </div>
+                </a>
+
+                <a
+                  id="ref16"
+                  href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11657136/"
+                  class="card-container__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="card-container__link-number">16</div>
+                  <div>
+                    <h3 class="resources__title">
+                      Age-Related Macular Degeneration Burden - PMC
+                    </h3>
+                    <p class="card-container__link-description">
+                      8 million people with vision loss due to AMD, projected to
+                      exceed 9 million by 2050
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+    <footer class="footer">
+      <p class="footer__text">
+        Designing for colorblindness is not just about meeting accessibility
+        standards, but creating inclusive experiences that work for everyone. By
+        following the WCAG and design best practices, we can make the web more
+        accessible for everyone.
+      </p>
+      <p class="footer__text">
+        &copy; 2026
+        <a
+          href="https://www.homergaines.com"
+          class="footer__link"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Homer Gaines</a
+        >
+      </p>
+      <img src="homergaines-logo.svg" alt="my logo" />
+    </footer>
+
+    <script src="cvd.js" defer></script>
+  </body>
+</html>
