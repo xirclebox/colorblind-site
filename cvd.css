@@ -311,6 +311,7 @@ sup {
   grid-template-columns: 1fr;
   gap: 2rem;
   align-items: start;
+  margin-bottom: 2rem;
 }
 
 .extension__text-title {
@@ -331,6 +332,12 @@ sup {
   text-shadow: -4px 4px 2px #0a010c;
 }
 
+.extension__cta-group {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
 .extension__cta {
   display: inline-flex;
   align-items: center;
@@ -342,6 +349,8 @@ sup {
   font-size: 1.1rem;
   transition: background var(--speed);
   box-shadow: -6px 8px 17px 1px #2e0a37;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .extension__cta:hover,
@@ -484,7 +493,11 @@ sup {
   }
 
   .extension__text-description {
-    font-size: 1.15rem;
+    font-size: 1.4rem;
+  }
+
+  .extension__cta-group {
+    grid-template-columns: 1fr 1fr;
   }
 
   .extension__cta {
@@ -636,7 +649,7 @@ sup {
   }
 
   .extension__text-description {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   .extension__cta {
@@ -733,6 +746,10 @@ sup {
   .extension__content {
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
+  }
+
+  .extension__cta-group {
+    grid-template-columns: 1fr 1fr;
   }
 
   .extension__list {
