@@ -350,7 +350,7 @@ sup {
   transition: background var(--speed);
   box-shadow: -6px 8px 17px 1px #2e0a37;
   justify-content: space-between;
-  gap: 20px;
+  gap: 1rem;
 }
 
 .extension__cta:hover,
@@ -503,6 +503,7 @@ sup {
   .extension__cta {
     padding: 1rem 1.75rem;
     font-size: 1.15rem;
+    gap: 3.25rem;
   }
 
   .extension__list {
@@ -655,6 +656,7 @@ sup {
   .extension__cta {
     padding: 1rem 2rem;
     font-size: 1.2rem;
+    gap: 3.25rem;
   }
 
   .footer {
