@@ -208,6 +208,9 @@ sup {
 .card-container__link:focus {
   border-left-color: var(--secondary);
   background: var(--bg-secondary);
+}
+
+.card-container__link:focus {
   z-index: 1;
 }
 
