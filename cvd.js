@@ -1,8 +1,8 @@
 const sections = document.querySelectorAll("[id]");
 const navLinks = document.querySelectorAll(".nav-sidebar__link");
 const refLinks = document.querySelectorAll(".ref-link");
-const statisticalRefsSection = document.getElementById(
-  "statistical-references",
+const lastLinkRefsSection = document.getElementById(
+  "a11y-statement",
 );
 
 function highlightActiveSection() {
@@ -17,10 +17,10 @@ function highlightActiveSection() {
     }
   });
 
-  if (statisticalRefsSection) {
-    const statsTop = statisticalRefsSection.offsetTop - 100;
-    if (window.scrollY >= statsTop - statisticalRefsSection.clientHeight / 3) {
-      current = "statistical-references";
+  if (lastLinkRefsSection) {
+    const statsTop = lastLinkRefsSection.offsetTop - 100;
+    if (window.scrollY >= statsTop - lastLinkRefsSection.clientHeight / 3) {
+      current = "a11y-statement";
     }
   }
 

@@ -401,6 +401,25 @@ sup {
   border-bottom: none;
 }
 
+.a11y-statement {
+  .section__text {
+    margin-bottom: 1.5rem;
+  }
+
+  .section__subtitle {
+    margin-bottom: 0;
+    font-weight: 600;
+  }
+
+  .a11y-approach {
+    margin-bottom: 0.5rem;
+  }
+
+  .a11y-list {
+    margin-left: 2rem;
+  }
+}
+
 .footer {
   background: var(--primary);
   color: #bab9c9;
