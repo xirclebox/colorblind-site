@@ -7,6 +7,220 @@
       name="description"
       content="Accessibility information about designing for color blindness and low vision."
     />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://www.homergaines.com/#person",
+            "name": "Homer Gaines",
+            "honorificSuffix": "CPACC",
+            "url": "https://www.homergaines.com/",
+            "jobTitle": "Director of Engineering, Accessibility",
+            "sameAs": [
+              "https://www.linkedin.com/in/homergaines",
+              "https://sessionize.com/homergaines",
+              "https://bsky.app/profile/xirclebox.com"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://colorblind.fyi/#website",
+            "url": "https://colorblind.fyi/",
+            "name": "Understanding Color Blindness \u0026 Low Vision",
+            "description": "A research-backed, single-page educational resource on color vision deficiency and low vision for designers, developers, and accessibility professionals.",
+            "inLanguage": "en",
+            "author": { "@id": "https://www.homergaines.com/#person" },
+            "publisher": { "@id": "https://www.homergaines.com/#person" },
+            "creator": { "@id": "https://www.homergaines.com/#person" }
+          },
+          {
+            "@type": "MedicalWebPage",
+            "@id": "https://colorblind.fyi/#webpage",
+            "url": "https://colorblind.fyi/",
+            "name": "Understanding Color Blindness \u0026 Low Vision | Accessibility Guide",
+            "description": "Accessibility information about designing for color blindness and low vision, including prevalence data, condition types, and WCAG-aligned design practices.",
+            "isPartOf": { "@id": "https://colorblind.fyi/#website" },
+            "inLanguage": "en",
+            "dateModified": "2026-05-23",
+            "author": { "@id": "https://www.homergaines.com/#person" },
+            "reviewedBy": { "@id": "https://www.homergaines.com/#person" },
+            "lastReviewed": "2026-05-23",
+            "specialty": {
+              "@type": "MedicalSpecialty",
+              "name": "Ophthalmologic"
+            },
+            "audience": {
+              "@type": "Audience",
+              "audienceType": "Designers, developers, and accessibility professionals"
+            },
+            "about": [
+              { "@id": "https://colorblind.fyi/#cvd" },
+              { "@id": "https://colorblind.fyi/#lowvision" }
+            ],
+            "mentions": [
+              { "@id": "https://colorblind.fyi/#simulator-chrome" },
+              { "@id": "https://colorblind.fyi/#simulator-firefox" },
+              { "@id": "https://colorblind.fyi/#simulator-edge" }
+            ],
+            "keywords": [
+              "color blindness",
+              "color vision deficiency",
+              "CVD",
+              "low vision",
+              "WCAG",
+              "web accessibility",
+              "inclusive design",
+              "protanopia",
+              "deuteranopia",
+              "tritanopia"
+            ]
+          },
+          {
+            "@type": "MedicalCondition",
+            "@id": "https://colorblind.fyi/#cvd",
+            "name": "Color Vision Deficiency",
+            "alternateName": ["Color Blindness", "CVD"],
+            "description": "A hereditary condition affecting how the cone cells in the retina perceive the visible spectrum. Most people with CVD can see colors but have difficulty distinguishing between specific hues, particularly reds and greens or blues and yellows. Affects approximately 8% of men and 0.5% of women worldwide, with around 300 million people affected globally.",
+            "code": {
+              "@type": "MedicalCode",
+              "codeValue": "H53.5",
+              "codingSystem": "ICD-10"
+            },
+            "subtype": [
+              {
+                "@type": "MedicalCondition",
+                "name": "Protanopia",
+                "description": "Complete absence of red cone cells. Red appears as dark grey or black, and certain shades of orange, yellow, and green all appear as yellow."
+              },
+              {
+                "@type": "MedicalCondition",
+                "name": "Deuteranopia",
+                "description": "Complete absence of green cone cells. The most common form, causing difficulty distinguishing between red, green, brown, and orange."
+              },
+              {
+                "@type": "MedicalCondition",
+                "name": "Tritanopia",
+                "description": "Rare condition with absence of blue cone cells. Blue appears green, and yellow appears violet or light grey."
+              },
+              {
+                "@type": "MedicalCondition",
+                "name": "Protanomaly",
+                "description": "Reduced sensitivity to red light. Red, orange, and yellow appear greener, and colors are not as bright."
+              },
+              {
+                "@type": "MedicalCondition",
+                "name": "Deuteranomaly",
+                "description": "The most common type of color vision deficiency overall. Reduced sensitivity to green light, making green and yellow appear redder."
+              },
+              {
+                "@type": "MedicalCondition",
+                "name": "Tritanomaly",
+                "description": "Extremely rare. Reduced sensitivity to blue light, causing difficulty distinguishing blue from green and yellow from violet."
+              }
+            ]
+          },
+          {
+            "@type": "MedicalCondition",
+            "@id": "https://colorblind.fyi/#lowvision",
+            "name": "Low Vision",
+            "description": "A visual impairment that cannot be corrected with standard glasses, contact lenses, medication, or surgery, and significantly interferes with daily activities. Unlike total blindness, individuals with low vision retain some usable vision. According to the WHO, at least 2.2 billion people worldwide have some form of vision impairment, with approximately 295 million experiencing moderate to severe vision impairment.",
+            "subtype": [
+              {
+                "@type": "MedicalCondition",
+                "name": "Central Vision Loss",
+                "description": "Inability to see things in the center of vision, often caused by age-related macular degeneration or Stargardt disease. Affects reading and recognizing faces."
+              },
+              {
+                "@type": "MedicalCondition",
+                "name": "Peripheral Vision Loss",
+                "description": "Difficulty seeing objects in the corners of the eyes, commonly caused by glaucoma or retinitis pigmentosa. Results in tunnel vision and mobility challenges."
+              },
+              {
+                "@type": "MedicalCondition",
+                "name": "Night Blindness",
+                "description": "Reduced ability to see in low light conditions, often associated with retinitis pigmentosa or vitamin A deficiency."
+              },
+              {
+                "@type": "MedicalCondition",
+                "name": "Cataracts",
+                "description": "Clouding of the eye's natural lens causing blurred vision and glare sensitivity. The leading cause of preventable blindness worldwide, affecting over 94 million people."
+              },
+              {
+                "@type": "MedicalCondition",
+                "name": "Diabetic Retinopathy",
+                "description": "Damage to retinal blood vessels from diabetes. Affects 3.9 million people with vision impairment, causing blurred vision, floaters, and potential blindness."
+              },
+              {
+                "@type": "MedicalCondition",
+                "name": "Glaucoma",
+                "description": "Optic nerve damage from eye pressure. Affects over 80 million people worldwide, causing peripheral vision loss and reduced contrast sensitivity."
+              },
+              {
+                "@type": "MedicalCondition",
+                "name": "Age-Related Macular Degeneration",
+                "alternateName": "AMD",
+                "description": "Progressive deterioration of the macula affecting central vision. Leading cause of vision loss in people over 65, impacting 8 million people globally."
+              },
+              {
+                "@type": "MedicalCondition",
+                "name": "Retinitis Pigmentosa",
+                "description": "Inherited condition causing gradual vision loss. Affects rod cells first, leading to night blindness and progressive tunnel vision over time."
+              }
+            ]
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://colorblind.fyi/#simulator-chrome",
+            "name": "Color Blind & Low Vision Simulator",
+            "description": "Browser extension that simulates how people with color blindness or low vision perceive web-based content. Supports protanopia, deuteranopia, tritanopia, and their anomalous variants, plus tunnel vision and other low-vision conditions.",
+            "applicationCategory": "BrowserApplication",
+            "applicationSubCategory": "BrowserExtension",
+            "operatingSystem": "Chrome",
+            "url": "https://chromewebstore.google.com/detail/color-blind-low-vision-si/lgflijofdempkdlaknbfmacfidjjhjbb",
+            "author": { "@id": "https://www.homergaines.com/#person" },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://colorblind.fyi/#simulator-firefox",
+            "name": "Color Blind & Low Vision Simulator",
+            "description": "Firefox build of the Color Blind & Low Vision Simulator browser extension.",
+            "applicationCategory": "BrowserApplication",
+            "applicationSubCategory": "BrowserExtension",
+            "operatingSystem": "Firefox",
+            "url": "https://addons.mozilla.org/en-US/firefox/addon/colorblindfyi/",
+            "author": { "@id": "https://www.homergaines.com/#person" },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://colorblind.fyi/#simulator-edge",
+            "name": "Color Blind & Low Vision Simulator",
+            "description": "Edge build of the Color Blind & Low Vision Simulator browser extension.",
+            "applicationCategory": "BrowserApplication",
+            "applicationSubCategory": "BrowserExtension",
+            "operatingSystem": "Edge",
+            "url": "https://microsoftedge.microsoft.com/addons/detail/color-blind-low-vision-/fnoohbbohbdialpbgabplongiiopgdbk",
+            "author": { "@id": "https://www.homergaines.com/#person" },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            }
+          }
+        ]
+      }
+    </script>
     <title>
       Understanding Color Blindness & Low Vision | Accessibility Guide
     </title>
