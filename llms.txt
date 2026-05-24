@@ -1,0 +1,36 @@
+# colorblind.fyi
+
+> A research-backed, single-page educational resource on color vision deficiency (CVD) and low vision. Covers prevalence statistics, condition types, WCAG-aligned design practices, and curated W3C and clinical references for designers and developers building inclusive digital experiences.
+
+Authored by Homer Gaines (CPACC), a UI engineer and certified accessibility professional. The site is static, works without JavaScript, and conforms to WCAG 2.2 Level AA. All sections below are fragments of a single page at https://colorblind.fyi/.
+
+## Color blindness
+
+- [What is color blindness](https://colorblind.fyi/#what-is-colorblindness): Definition of color vision deficiency and why "color blindness" is a misnomer for most cases.
+- [Global distribution](https://colorblind.fyi/#global-distribution): Country-level and ethnicity-level prevalence; 1 in 12 men and 1 in 200 women worldwide, ~300M people affected.
+- [Types of color vision deficiency](https://colorblind.fyi/#types-cvd): Protanopia, deuteranopia, tritanopia, and their anomalous (partial) counterparts.
+- [Design for color blindness](https://colorblind.fyi/#design-practices-colorblindness): Six WCAG-aligned practices — contrast ratios, redundant cues, problematic color pairs.
+- [Web accessibility resources](https://colorblind.fyi/#web-accessibility-resources): Direct links to WCAG 2.2 success criteria 1.4.1, 1.4.3, 1.4.6 and supporting W3C techniques.
+
+## Low vision
+
+- [Understanding low vision](https://colorblind.fyi/#understanding-low-vision): Definition and WHO statistics — 2.2B with some impairment, 295M moderate-to-severe, 1.8B projected by 2050.
+- [Types of low vision](https://colorblind.fyi/#types-low-vision): Central and peripheral vision loss, night blindness, cataracts, diabetic retinopathy, glaucoma, AMD, retinitis pigmentosa, refractive errors.
+- [Design for low vision](https://colorblind.fyi/#design-practices-low-vision): Contrast, scalable text, typography, zoom support, keyboard navigation, touch targets, motion, screen reader compatibility.
+- [Low vision resources](https://colorblind.fyi/#low-vision-resources): WHO, NEI, W3C, WebAIM, and VisionAware references.
+
+## Tools
+
+- [Color Blind & Low Vision Simulator for Chrome](https://chromewebstore.google.com/detail/color-blind-low-vision-si/lgflijofdempkdlaknbfmacfidjjhjbb): Browser extension simulating CVD and low vision on any page.
+- [Color Blind & Low Vision Simulator for Firefox](https://addons.mozilla.org/en-US/firefox/addon/colorblindfyi/): Firefox build of the simulator.
+- [Color Blind & Low Vision Simulator for Edge](https://microsoftedge.microsoft.com/addons/detail/color-blind-low-vision-/fnoohbbohbdialpbgabplongiiopgdbk): Edge build of the simulator.
+
+## References
+
+- [Statistical references](https://colorblind.fyi/#statistical-references): 16 primary sources — WHO, NIH/PMC, PubMed, ARVO Journals — for every figure cited on the page.
+
+## Optional
+
+- [Homer Gaines](https://www.homergaines.com): Author site — background, talks, and other accessibility work.
+- [rightbadcode.com](https://rightbadcode.com): Author's accessibility-focused blog covering WCAG, semantic HTML, inclusive UX, and digital ableism.
+- [Accessibility statement](https://colorblind.fyi/#a11y-statement): Technical approach used to build this site.
